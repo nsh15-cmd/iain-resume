@@ -27,15 +27,15 @@ main {
   @apply min-h-screen pt-10;
 }
 h1 {
-  @apply text-6xl  text-gradient leading-tight tracking-[-2px] font-semibold;
+  @apply text-6xl  text-gradient leading-tight tracking-[-2px] font-semibold text-white;
 }
 
 h2 {
-  @apply text-3xl text-dark-200;
+  @apply text-3xl text-white;
 }
 
 label {
-  @apply text-dark-200;
+  @apply  text-shadow-light-blue-100;
 }
 input {
   @apply w-full p-4 inset-shadow rounded-2xl focus:outline-none bg-white;
